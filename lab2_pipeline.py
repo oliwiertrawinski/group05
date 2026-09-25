@@ -554,4 +554,7 @@ def main():
 
 
 if __name__ == "__main__":
+    # My trivial change for CI/CD testing
+    print("CI/CD pipeline test trigger active!")
     sys.exit(main())
+
